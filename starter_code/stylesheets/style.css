@@ -5,3 +5,104 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background: white;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    top: 0px;
+  }
+  nav img:first-child {
+    width: 100px;
+    margin-left: 30px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  nav ul li {
+    display: none;
+  }
+  nav img {
+    width: 30px;
+    margin-right: 20px;
+  }
+  header {
+    margin: 90px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    width: 70%;
+  }
+  #signin {
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+  .email {
+    padding: 10px;
+    margin-top: 20px;
+    color: gray;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+  }
+  #email:focus {
+    color: black;
+  }
+  .bluebutton {
+    background: rgb(64, 73, 170);
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    color: white;
+    width:100%;
+  }
+  #container {
+    padding: 90px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f3f4;
+  }
+  #container button {
+    width: 100%;
+    color: rgb(64, 73, 170);
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(64, 73, 170);
+    border-radius: 4px;
+  }
+  #hometalking {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .icon {
+    margin: 50px;
+    width: 50%;
+  }
+  #second-container {
+    padding: 90px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #second-container input {
+    width:96%;
+  }
+}
